@@ -1,4 +1,4 @@
-# [LeetCode: Two Sum](https://leetcode.com/problems/add-two-numbers/description/)
+# [LeetCode: Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
 
 ## Problem
 
@@ -13,6 +13,7 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 ```
+
 ## Solution
 
 ### Intuition
@@ -49,11 +50,13 @@ The pseudocode is as following:
 
 Take extra caution of the following cases:
 
-| Test Case           | Explanation                                                                   |
-| ------------------- |:-----------------------------------------------------------------------------:|
-| l1=[0,1] l2=[0,1,2] | When one list is longer than the other.                                       |
-| l1=[] l2=[0,1]      | When one list is null, which means an empty list.                             |
-| l1=[9,9] l2=[1]     | The sum could have an extra carry of one at the end, which is easy to forget. |
+| Test Case             | Explanation                                                                   |
+| --------------------- |:-----------------------------------------------------------------------------:|
+| l1=[0,1]   l2=[0,1,2] | When one list is longer than the other.                                       |
+| l1=[]   l2=[0,1]      | When one list is null, which means an empty list.                             |
+| l1=[9,9]   l2=[1]     | The sum could have an extra carry of one at the end, which is easy to forget. |
+
+Java Code:
 
 ```
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
