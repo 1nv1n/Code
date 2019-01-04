@@ -1,21 +1,19 @@
-# [Description](Link)
+# [Name](Link)
 
-## Problem
+## Problem Description
 
-
-
-## Note
-
-
-## Example
+## Example(s)
 ```
 
 ```
 
-## Solution
+## Solution Explanation
 ```
 
 ```
+
+## Additional Notes/Links
+
 
 #### Complexity Analysis
 
