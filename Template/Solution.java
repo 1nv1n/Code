@@ -2,7 +2,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 /**
- * Contains the loigc that solves the provided problem.
+ * Contains the logic that solves the provided problem.
  */
 class Solution {
 
