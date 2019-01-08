@@ -1,12 +1,12 @@
-# [LeetCode: Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
+# [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
 
-## Problem
+## Description
 
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
-## Example
+## Example(s)
 
 ```
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
@@ -14,9 +14,10 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 ```
 
-## Solution
+## Solution(s)
 
-### Intuition
+### Provided Solution
+#### Intuition
 
 Keep track of the carry using a variable and simulate digits-by-digits sum starting from the head of list, which contains the least-significant digit.
 
@@ -27,7 +28,7 @@ Illustration of Adding two numbers
 Figure 1. Visualization of the addition of two numbers: 342 + 465 = 807.
 Each node contains a single digit and the digits are stored in reverse order.
 
-### Algorithm
+#### Algorithm
 
 Just like how you would sum two numbers on a piece of paper, we begin by summing the least-significant digits, which is the head of l1l1 and l2l2. Since each digit is in the range of 0...9, summing two digits may "overflow". For example 5 + 7 = 12. In this case, we set the current digit to 22 and bring over the carry = 1 to the next iteration. carry must be either 00 or 11 because the largest possible sum of two digits (including the carry) is 9 + 9 + 1 = 19.
 
@@ -80,16 +81,26 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 }
 ```
 
-### Complexity Analysis
+#### Complexity Analysis
 
 Time complexity : O(max(m,n)). Assume that mm and nn represents the length of l1 and l2 respectively, the algorithm above iterates at most max(m,n) times.
 
 Space complexity : O(max(m,n)). The length of the new list is at most max(m,n)+1.
 
-### Follow up
+#### Follow up
 
 What if the the digits in the linked list are stored in non-reversed order? For example:
 
 ```
 (3→4→2)+(4→6→5)=8→0→7
 ```
+
+### Coded Solution
+
+We can create a loop that goes through an element from both of the provided inputs, starting from the first/root element & end the loop when both the element's "next" node points to a null.
+In each iteration of the loop, we can add the values & set that to the result node (if it's the first iteration) or set it to the result's next node in the list.
+
+#### Complexity Analysis
+
+Time: Since we go over both the lists once, the time complexity will be O(n) where n is the larger of the two lists (in terms of the number of elements).
+Space: We will require constant space for the temporary variables, but the space required for the result will increase with the inputs.
