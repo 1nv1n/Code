@@ -1,85 +1,139 @@
-/* -----------------------------------
- *  WARNING:
- * -----------------------------------
- *  Your code may fail to compile
- *  because it contains public class
- *  declarations.
- *  To fix this, please remove the
- *  "public" keyword from your class
- *  declarations.
- */
+import java.lang.StringBuilder;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
-class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        // Code Goes Here!
-    }
+/*
+* Definition for singly-linked list.
+*/
+class ListNode {
+	int val;
+	ListNode next;
+
+	@Override
+	public String toString() {
+		return String.valueOf(this.val);
+	}
+
+	/* Constructs a ListNode with the provided value */
+	public ListNode(int val) {
+		this.val = val;
+		this.next = null;
+	}
+
+	/* Prints the current node & all the nodes it is linked to. */
+	public void printLinkedList() {
+		StringBuilder linkedListStrBuilder = new StringBuilder();
+		ListNode curNode = this;
+
+		if(this == null) {
+			System.out.println("null");
+		}
+
+		linkedListStrBuilder.append(curNode.val);
+		curNode = curNode.next;
+		
+		while(curNode != null) {
+			linkedListStrBuilder.append(" -> ");
+			linkedListStrBuilder.append(curNode.val);
+			curNode = curNode.next;
+		}
+
+		System.out.println(linkedListStrBuilder.toString());
+	}
 }
 
+/**
+ * Contains the logic that solves the provided problem.
+ */
+class Solution {
+	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+		ListNode result = null;
+		ListNode tempNode = null;
+		int sum = 0;
+		int carry = 0;
+
+		// Base case, both inputs are null
+		if(null == l1 && null == l2) {
+			return result;
+		}
+		// Base case, one of the inputs is null
+		if(null == l1) {
+			return l2;
+		} else if(null == l2) {
+			return l1;
+		}
+
+		// Loop till we exhaust both inputs
+		while(l1 != null || l2 != null) {
+			// Calculate positional sum
+			if(null == l1) {
+				sum = l2.val + carry;
+			} else if(null == l2) {
+				sum = l1.val + carry;
+			} else {
+				sum = l1.val + l2.val + carry;
+			}
+
+			// Detect carry
+			if(sum > 9) {
+				carry = sum / 10; // Determine carry-over
+				sum %= 10;        // Determine positional sum
+			} else {
+				carry = 0;
+			}
+
+			// Set current node
+			if(null == result) {
+				result = new ListNode(sum);
+				tempNode = result;
+			} else {
+				while(tempNode.next != null) {
+					tempNode = tempNode.next;
+				}
+				tempNode.next = new ListNode(sum);
+			}
+
+			// Move to the next node
+			if(null != l1) {
+				l1 = l1.next;
+			}
+			if(null != l2) {
+				l2 = l2.next;
+			}
+		}
+
+		return result;
+	}
+}
+
+/**
+ * Driver class for the problem's solution (JDK8+).
+ */
 public class MainClass {
-    public static int[] stringToIntegerArray(String input) {
-        input = input.trim();
-        input = input.substring(1, input.length() - 1);
-        if (input.length() == 0) {
-          return new int[0];
-        }
-    
-        String[] parts = input.split(",");
-        int[] output = new int[parts.length];
-        for(int index = 0; index < parts.length; index++) {
-            String part = parts[index].trim();
-            output[index] = Integer.parseInt(part);
-        }
-        return output;
-    }
-    
-    public static ListNode stringToListNode(String input) {
-        // Generate array from the input
-        int[] nodeValues = stringToIntegerArray(input);
-    
-        // Now convert that list into linked list
-        ListNode dummyRoot = new ListNode(0);
-        ListNode ptr = dummyRoot;
-        for(int item : nodeValues) {
-            ptr.next = new ListNode(item);
-            ptr = ptr.next;
-        }
-        return dummyRoot.next;
-    }
-    
-    public static String listNodeToString(ListNode node) {
-        if (node == null) {
-            return "[]";
-        }
-    
-        String result = "";
-        while (node != null) {
-            result += Integer.toString(node.val) + ", ";
-            node = node.next;
-        }
-        return "[" + result.substring(0, result.length() - 2) + "]";
-    }
-    
-    public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        String line;
-        while ((line = in.readLine()) != null) {
-            ListNode l1 = stringToListNode(line);
-            line = in.readLine();
-            ListNode l2 = stringToListNode(line);
-            
-            ListNode ret = new Solution().addTwoNumbers(l1, l2);
-            
-            String out = listNodeToString(ret);
-            
-            System.out.print(out);
-        }
-    }
+	private static String currTimeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
+
+	public static void main(String[] args) {
+		System.out.println(currTimeStamp);
+
+		Solution sol = new Solution();
+		ListNode res = null;
+
+		ListNode l1 = new ListNode(2);
+		l1.next = new ListNode(4);
+		l1.next.next = new ListNode(3);
+
+		ListNode l2 = new ListNode(5);
+		l2.next = new ListNode(6);
+		l2.next.next = new ListNode(4);
+		
+		// Extra test
+		// l2.next.next.next = new ListNode(9);
+
+		res = sol.addTwoNumbers(l1, l2);
+
+		// Uncomment to print the inputs & the outpu
+		// l1.printLinkedList();
+		// l2.printLinkedList();
+		res.printLinkedList();
+	}
 }
