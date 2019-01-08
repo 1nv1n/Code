@@ -1,3 +1,3 @@
 # Code Goes Here
 
-Repository to track coding solutions.
+Repository to track code.
