@@ -1,20 +1,14 @@
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
+class CodeGoesHere {
+	String greetStr = "Hello from Monaco!";
 
-/**
- * Contains the logic that solves the provided problem.
- */
-class Solution {
-
+	public String greet() {
+		return this.greetStr;
+	}
 }
 
-/**
- * Driver class for the problem's solution (JDK8+).
- */
-public class MainClass {
-	private static String currTimeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
-
+public class SolutionDriver {
 	public static void main(String[] args) {
-		System.out.println(currTimeStamp);
+		CodeGoesHere cGH = new CodeGoesHere();
+		System.out.println(cGH.greet());
 	}
 }
