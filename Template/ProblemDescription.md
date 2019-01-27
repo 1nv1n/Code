@@ -1,22 +1,13 @@
-# [Name](Link)
+# [Problem]()
 
 ## Problem Description
 
-## Example(s)
-```
+Create a greet function
 
-```
+## Example
 
-## Solution Explanation
-```
+Sample output: `Hello from Monaco!`
 
-```
+## Analysis
 
-## Additional Notes/Links
-
-
-#### Complexity Analysis
-
-Time complexity: 
-
-Space complexity: 
+## Notes
