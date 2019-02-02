@@ -6,11 +6,11 @@ This is a variation of the standard problem: “Counting the number of connected
 
 ## Example(s)
 ```
-Input : mat[][] = {{1, 1, 0, 0, 0},
-                   {0, 1, 0, 0, 1},
-                   {1, 0, 0, 1, 1},
-                   {0, 0, 0, 0, 0},
-                   {1, 0, 1, 0, 1}}
+Input : mat[][] = { {1, 1, 0, 0, 0},
+                    {0, 1, 0, 0, 1},
+                    {1, 0, 0, 1, 1},
+                    {0, 0, 0, 0, 0},
+                    {1, 0, 1, 0, 1} }
 Output : 5
 ```
 A connected component of an undirected graph is a subgraph in which every two vertices are connected to each other by a path(s), and which is connected to no other vertices outside the subgraph.
