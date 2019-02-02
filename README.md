@@ -1,7 +1,7 @@
 ### Code Goes Here
 
 Problems by category:
-- [Curated](/Curated)
-- [LeetCode](/LeetCode)
+- [Curated](Curated)
+- [LeetCode](LeetCode)
 
-View [Template](/Template)
+View [Template](Template)
