@@ -1,4 +1,4 @@
-# [55. Jump Game](https://leetcode.com/problems/jump-game/)
+# [Jump Game](https://leetcode.com/problems/jump-game/)
 
 ## Problem Description
 Given an array of non-negative integers, you are initially positioned at the first index of the array.

@@ -1,4 +1,4 @@
-# [LeetCode: Monotonic Array](https://leetcode.com/problems/monotonic-array/description/)
+# [Monotonic Array](https://leetcode.com/problems/monotonic-array/description/)
 
 ## Problem
 

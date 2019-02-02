@@ -1,4 +1,4 @@
-# [Problem 394 - Decode String](https://leetcode.com/problems/decode-string/description/)
+# [Decode String](https://leetcode.com/problems/decode-string/description/)
 
 Given an encoded string, return it's decoded string.
 
