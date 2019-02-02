@@ -1,6 +1,6 @@
 # [Problem]()
 
-## Example Problem Description
+## Description
 
 Create a greet function
 
@@ -10,7 +10,9 @@ Sample output: `Hello from Monaco!`
 
 ## Analysis
 
+
 ## Notes
+
 
 ## Solution
  - [C](Solution.c)
