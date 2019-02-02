@@ -1,3 +1,7 @@
-# Code Goes Here
+### Code Goes Here
 
-Repository to track code.
+Problems by category:
+- [Curated](/Curated)
+- [LeetCode](/LeetCode)
+
+View [Template](/Template)
