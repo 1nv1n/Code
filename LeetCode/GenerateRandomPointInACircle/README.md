@@ -28,10 +28,4 @@ Sample output: `[null,[11.52438,-8.33273],[2.46992,-16.21705],[11.13430,-12.4233
 
 
 ## Solution
- - [C](Solution.c)
- - [C++](Solution.cpp)
  - [Java](Solution.java)
- - [JavaScript](Solution.js)
- - [Python](Solution.py)
- - [Ruby](Solution.rb)
- - [TypeScript](Solution.ts)
