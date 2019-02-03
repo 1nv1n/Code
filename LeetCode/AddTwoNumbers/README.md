@@ -14,7 +14,7 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 ```
 
-## Solution(s)
+## Analysis
 
 ### Provided Solution
 #### Intuition
@@ -104,3 +104,6 @@ In each iteration of the loop, we can add the values & set that to the result no
 
 Time: Since we go over both the lists once, the time complexity will be O(n) where n is the larger of the two lists (in terms of the number of elements).
 Space: We will require constant space for the temporary variables, but the space required for the result will increase with the inputs.
+
+## Solution
+ - [Java](Solution.java)

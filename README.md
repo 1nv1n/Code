@@ -1,7 +1,7 @@
 ### Code Goes Here
 
-Problems by category:
-- [Curated](Curated)
-- [LeetCode](LeetCode)
+Explore categorized problems:
+- [Curated](Curated) - Hand-picked practice problems.
+- [LeetCode](LeetCode) - Problems from the popular online programming-learning platform.
 
-View [Template](Template)
+View the [template](Template) for description & solutions.

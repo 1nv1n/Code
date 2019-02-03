@@ -1,6 +1,6 @@
 # [Monotonic Array](https://leetcode.com/problems/monotonic-array/description/)
 
-## Problem
+## Description
 
 An array is monotonic if it is either monotone increasing or monotone decreasing.
 
@@ -38,7 +38,7 @@ Input: [1,1,1]
 Output: true
 ```
 
-## Solution
+## Analysis
 ### Approach #1 (Two Pass) [Accepted]
 
 #### Intuition
@@ -110,3 +110,6 @@ class Solution {
 Time complexity : O(n) where N is the length of A.
 
 Space complexity : O(1)
+
+## Solution
+ - [Java](Solution.java)

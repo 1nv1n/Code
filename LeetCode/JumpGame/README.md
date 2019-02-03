@@ -1,6 +1,6 @@
 # [Jump Game](https://leetcode.com/problems/jump-game/)
 
-## Problem Description
+## Description
 Given an array of non-negative integers, you are initially positioned at the first index of the array.
 
 Each element in the array represents your maximum jump length at that position.
@@ -37,3 +37,6 @@ A similar question is on CSDoJo; the differentiating factor being that the CSDoJ
 Time complexity: We are going over each element in the array, so the time it takes for us to solve this problem will scale linearly with the input, so the time complexity can be thought of as being O(n) where `n` is the length of the input array.
 
 Space complexity: We're using 2 placeholders, but regardless of the input; we will always use only the two placeholders. So the space complexity can be thought of as being O(1) as we will need a constant amount of space regardless of the input. The additional ArrayList containing the jump-list-order in reverse is not strictly necessary & can be removed to save space; & another single placeholder could be used in it's place instead.
+
+## Solution
+ - [Java](Solution.java)

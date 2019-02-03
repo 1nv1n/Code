@@ -1,4 +1,4 @@
-Repository with solutions to [LeetCode](https://leetcode.com/) problems.
+Description, explanation & solutions to [LeetCode](https://leetcode.com/) problems.
 
 | # | Title | Solution | Tag(s) |
 | :- | :- | :- | :- |

@@ -1,6 +1,6 @@
 # [Two Sum](https://leetcode.com/problems/two-sum/description/)
 
-## Problem
+## Description
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -14,7 +14,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-## Solution
+## Analysis
 ### Approach #1 (Brute Force) [Accepted]
 The brute force approach is simple. Loop through each element x and find if there is another value that equals to target - x.
 
@@ -88,3 +88,6 @@ public int[] twoSum(int[] nums, int target) {
 Time complexity : O(n). We traverse the list containing nn elements only once. Each look up in the table costs only O(1) time.
 
 Space complexity : O(n). The extra space required depends on the number of items stored in the hash table, which stores at most n elements.
+
+## Solution
+ - [Java](Solution.java)
