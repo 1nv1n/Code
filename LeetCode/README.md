@@ -1,7 +1,7 @@
 Description, explanation & solutions to [LeetCode](https://leetcode.com/) problems.
 
 | # | Title | Solution | Level | Tag(s) |
-| :- | :- | :- | :- |
+| :- | :- | :- | :- | :- |
 | 001 | [Two Sum](TwoSum) | [Java](TwoSum/Solution.java) | Easy | Array |
 | 002 | [Add Two Numbers](AddTwoNumbers) | [Java](AddTwoNumbers/Solution.java) | Medium | Linked List |
 | 055 | [Jump Game](JumpGame) | [Java](JumpGame/Solution.java) | Medium | |
