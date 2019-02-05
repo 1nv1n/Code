@@ -13,10 +13,24 @@ Input: `[[7,10],[2,4]]`
 Output: `true`
 
 ## Analysis
-TODO
+
+The key is to ensure that each meeting's start time (each meeting after the first one that is) is never lesser than the end time of the meeting before it.
+
+### Time Complexity
+
+Two for loops, one till n & another till n-1
+And O(nlogn) for Arrays.sort
+
+O(n + nlogn + (n-1) -> O(n)
+
+### Space Complexity
+
+Two more arrays initialized + Arrays.sort's space.
+
+O(2n + 1~n + 1~n) -> O(n)
 
 ## Notes
-TODO
+N/A
 
 ## Solution
  - [Java](Solution.java)
