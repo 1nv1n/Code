@@ -9,7 +9,7 @@ There are many like this, but this one is mine.
 
 ### Resources:
 
-* Competitive Programming & Practice Resources
+* Competitive Programming & Practice Resources:
     * [LeetCode](https://leetcode.com/) Competitions. Online Judge. Statistics & analytics.
     * [GeeksForGeeks](https://www.geeksforgeeks.org/) A computer science portal for geeks.
     * [CareerCup](https://www.careercup.com/)
@@ -22,11 +22,11 @@ There are many like this, but this one is mine.
     * [Code Forces](http://codeforces.com/)
     * [Code Chef](https://www.codechef.com/)
 
-* Practice problems by category:
+* Practice problems by source:
     * [Curated](Practice/Curated)
     * [LeetCode](Practice/LeetCode)
     * [Geeks4Geeks](Practice/Geeks4Geeks)
-    * [Cracking the Coding Interview](Practice/Cracking the Coding Interview)
+    * [Cracking the Coding Interview](Practice/CrackingTheCodingInterview)
 
 * Tools:
     * [CodeGoesHere](https://github.com/1nv1n/code-goes-here)
@@ -42,13 +42,14 @@ There are many like this, but this one is mine.
     * [Interviewing.io](https://www.interviewing.io/)
     * [InterviewBit](https://www.interviewbit.com/)
 
-* YouTube
+* YouTube:
+    * [TechLead](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw)
     * [Success In Tech](https://www.youtube.com/channel/UC-vYrOAmtrx9sBzJAf3x_xw)
     * [Gaurav Sen](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw)
     * [Kevin Naughton Jr.](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g)
     * [Tech Dummies](https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA)
 
-* GitHub
+* GitHub:
     * [Open Source Society University](https://github.com/ossu/computer-science)
     * [E-Book Foundation's Programming Books](https://github.com/EbookFoundation/free-programming-books)
     * [Full Stack Resources for Programmers](https://github.com/charlax/professional-programming)
