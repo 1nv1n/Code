@@ -1,65 +1,60 @@
-### Programming Fundamentals
-
 Yet another repository for programming fundamentals, concepts as well as resources & practice examples.
-
 There are many like this, but this one is mine.
 
-Basic Fundamental Concepts:
+### Basic Fundamental Concepts:
 
 * [Data Structures](DataStructures)
 * [Algorithms](Algorithms)
 * [System Design](SystemDesign)
 
-Resources:
+### Resources:
 
-* [Open Source Society University](https://github.com/ossu/computer-science)
-* [E-Book Foundation's Programming Books](https://github.com/EbookFoundation/free-programming-books)
-* [Full Stack Resources for Programmers](https://github.com/charlax/professional-programming)
+* Competitive Programming & Practice Resources
+    * [LeetCode](https://leetcode.com/) Competitions. Online Judge. Statistics & analytics.
+    * [GeeksForGeeks](https://www.geeksforgeeks.org/) A computer science portal for geeks.
+    * [CareerCup](https://www.careercup.com/)
+    * [CodeWars](https://www.codewars.com/)
+    * [HackerRank](https://www.hackerrank.com/)
+    * [CodeFights](https://codefights.com/)
+    * [Kattis](https://open.kattis.com/)
+    * [HackerEarth](https://www.hackerearth.com)
+    * [Codility](https://codility.com/programmers/lessons/1-iterations/)
+    * [Code Forces](http://codeforces.com/)
+    * [Code Chef](https://www.codechef.com/)
 
-Practice problems by category:
+* Practice problems by category:
+    * [Curated](Practice/Curated)
+    * [LeetCode](Practice/LeetCode)
+    * [Geeks4Geeks](Practice/Geeks4Geeks)
+    * [Cracking the Coding Interview](Practice/Cracking the Coding Interview)
 
- - [Curated](Practice/Curated)
- - [LeetCode](Practice/LeetCode)
- - [Geeks4Geeks](Practice/Geeks4Geeks)
- - [Cracking the Coding Interview](Practice/Cracking the Coding Interview)
+* Tools:
+    * [CodeGoesHere](https://github.com/1nv1n/code-goes-here)
+    * [jDoodle](https://www.jdoodle.com/faq)
+    * [Virtual Judge](https://vjudge.net/)
+    * [Sphere Online Judge](http://www.spoj.com/)
+
+* Technical Interview Prep. Resources & live-coding practice:
+    * [InterviewCake](https://www.interviewcake.com/)
+    * [Pramp](https://www.pramp.com/)
+    * [Gainlo](http://www.gainlo.co/)
+    * [Refdash](https://refdash.com/)
+    * [Interviewing.io](https://www.interviewing.io/)
+    * [InterviewBit](https://www.interviewbit.com/)
+
+* YouTube
+    * [Success In Tech](https://www.youtube.com/channel/UC-vYrOAmtrx9sBzJAf3x_xw)
+    * [Gaurav Sen](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw)
+    * [Kevin Naughton Jr.](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g)
+    * [Tech Dummies](https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA)
+
+* GitHub
+    * [Open Source Society University](https://github.com/ossu/computer-science)
+    * [E-Book Foundation's Programming Books](https://github.com/EbookFoundation/free-programming-books)
+    * [Full Stack Resources for Programmers](https://github.com/charlax/professional-programming)
+    * [kdn251 GitHub](https://github.com/kdn251/interviews)
 
 View problem-solution [Templates](Template).
 
-Competitive Programming & Practice Resources
-
-* [LeetCode](https://leetcode.com/) Competitions. Online Judge. Statistics & analytics.
-* [GeeksForGeeks](https://www.geeksforgeeks.org/) A computer science portal for geeks.
-* [Virtual Judge](https://vjudge.net/)
-* [CareerCup](https://www.careercup.com/)
-* [HackerRank](https://www.hackerrank.com/)
-* [CodeFights](https://codefights.com/)
-* [Kattis](https://open.kattis.com/)
-* [HackerEarth](https://www.hackerearth.com)
-* [Codility](https://codility.com/programmers/lessons/1-iterations/)
-* [Code Forces](http://codeforces.com/)
-* [Code Chef](https://www.codechef.com/)
-* [Sphere Online Judge - SPOJ](http://www.spoj.com/)
-* [InterviewBit](https://www.interviewbit.com/)
-
-Online Tools:
-
- - [CodeGoesHere](https://github.com/1nv1n/code-goes-here)
- - [jDoodle](https://www.jdoodle.com/faq)
-
-Technical Interview Prep. Resources & live-coding practice:
-
-* [InterviewCake]()
-* [Pramp](https://www.pramp.com/)
-* [Gainlo](http://www.gainlo.co/)
-* [Refdash](https://refdash.com/)
-* [Interviewing.io](https://www.interviewing.io/)
-
-Other online resources to explore:
-
-* YouTube
-    * [Kevin Naughton Jr.](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g)
-* GitHub
-    * [kdn251 GitHub](https://github.com/kdn251/interviews)
-
 To Do:
-  Metadata
+* Metadata
