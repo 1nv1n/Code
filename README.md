@@ -1,7 +1,7 @@
 Yet another repository for programming fundamentals, concepts as well as resources & practice examples.
 There are many like this, but this one is mine.
 
-### Basic Fundamental Concepts:
+### Concepts:
 
 * [Data Structures](DataStructures)
 * [Algorithms](Algorithms)
@@ -54,7 +54,4 @@ There are many like this, but this one is mine.
     * [Full Stack Resources for Programmers](https://github.com/charlax/professional-programming)
     * [kdn251 GitHub](https://github.com/kdn251/interviews)
 
-View problem-solution [Templates](Template).
-
-To Do:
-* Metadata
+View problem-solution [templates](Template).
