@@ -1,4 +1,4 @@
-Problems to practice, sorted by source
+Problems, sorted by source:
 
 * [Curated](Curated)
 * [LeetCode](LeetCode)
