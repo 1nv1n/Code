@@ -1,4 +1,4 @@
-# [Meeting Room](https://leetcode.com/problems/meeting-rooms)
+# [Meeting Rooms](https://leetcode.com/problems/meeting-rooms)
 
 ## Description
 

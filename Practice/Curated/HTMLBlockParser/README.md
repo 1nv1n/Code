@@ -10,13 +10,13 @@ Given an HTML String like:
 
 Write a method that takes the given input String & the maximum number of characters that will be used to generate a valid HTML output string (with tags closed as appropriate).
 
+## Notes
+
+
 ## Example
 
 
 ## Analysis
-
-
-## Notes
 
 
 ## Solution

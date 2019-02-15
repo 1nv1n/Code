@@ -6,6 +6,13 @@ Given the radius and `x`-`y` positions of the center of a circle, write a functi
 
 The input is two lists: the subroutines called and their arguments. Solution's constructor has three arguments, the radius, x-position of the center, and y-position of the center of the circle. `randPoint` has no arguments. Arguments are always wrapped with a list, even if there aren't any.
 
+## Notes
+
+ - Input and output values are in floating-point.
+ - Radius and x-y position of the center of the circle is passed into the class constructor.
+ - A point on the circumference of the circle is considered to be in the circle.
+ - `randPoint` returns a size 2 array containing x-position and y-position of the random point, in that order.
+
 ## Example
 
 Sample Input: `["Solution","randPoint","randPoint","randPoint"]
@@ -17,14 +24,6 @@ Sample Input: `["Solution","randPoint","randPoint","randPoint"]
 Sample output: `[null,[11.52438,-8.33273],[2.46992,-16.21705],[11.13430,-12.42337]]`
 
 ## Analysis
-
-
-## Notes
-
- - Input and output values are in floating-point.
- - Radius and x-y position of the center of the circle is passed into the class constructor.
- - A point on the circumference of the circle is considered to be in the circle.
- - `randPoint` returns a size 2 array containing x-position and y-position of the random point, in that order.
 
 
 ## Solution

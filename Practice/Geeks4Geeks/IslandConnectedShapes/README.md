@@ -1,10 +1,16 @@
 # [Island/Connected Shapes](https://www.geeksforgeeks.org/find-number-of-islands/)
 
 ## Problem Description
+
 Given a boolean 2D matrix, find the number of islands. A group of connected 1s forms an island. For example, the below matrix contains 5 islands
 This is a variation of the standard problem: “Counting the number of connected components in an undirected graph”.
 
+## Notes
+
+A cell in 2D matrix can be connected to 8 neighbours. So, unlike standard DFS(), where we recursively call for all adjacent vertices, here we can recursively call for 8 neighbours only. We keep track of the visited 1s so that they are not visited again.
+
 ## Example(s)
+
 ```
 Input : mat[][] = { {1, 1, 0, 0, 0},
                     {0, 1, 0, 0, 1},
@@ -20,15 +26,11 @@ A group of connected 1s forms an island. A graph where all vertices are connecte
 
 The problem can be easily solved by applying DFS() on each component. In each DFS() call, a component or a sub-graph is visited. We will call DFS on the next un-visited component. The number of calls to DFS() gives the number of connected components. BFS can also be used.
 
+### Complexity Analysis
 
-## Additional Notes/Links
-A cell in 2D matrix can be connected to 8 neighbours. So, unlike standard DFS(), where we recursively call for all adjacent vertices, here we can recursively call for 8 neighbours only. We keep track of the visited 1s so that they are not visited again.
+Time complexity: `O(ROW x COL)`
 
-#### Complexity Analysis
-
-Time complexity: O(ROW x COL)
-
-Space complexity: O(n)
+Space complexity: `O(n)`
 
 ## Solution
  - [Java](Solution.java)
