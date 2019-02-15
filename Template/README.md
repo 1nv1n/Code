@@ -1,4 +1,4 @@
-# [Problem](Link-To-Problem)
+# [Problem](Link)
 
 ## Description
 
