@@ -10,7 +10,7 @@ There are many like this, but this one is mine.
 ### Resources:
 
 * Competitive Programming & Practice Resources:
-    * [LeetCode](https://leetcode.com/) Competitions. Online Judge. Statistics & analytics.
+    * [LeetCode](https://leetcode.com/) The World's Leading Online Programming Learning Platform with Statistics & Analytics.
     * [GeeksForGeeks](https://www.geeksforgeeks.org/) A computer science portal for geeks.
     * [CareerCup](https://www.careercup.com/)
     * [CodeWars](https://www.codewars.com/)
@@ -29,9 +29,10 @@ There are many like this, but this one is mine.
     * [Cracking the Coding Interview](Practice/CrackingTheCodingInterview)
 
 * Tools:
-    * [CodeGoesHere](https://github.com/1nv1n/code-goes-here)
+    * [CodeGoesHere](https://github.com/1nv1n/code-goes-here) Code. Compile. Commit.
     * [jDoodle](https://www.jdoodle.com/faq)
     * [RunMyCode](https://runmycode.online/)
+    * [Judge 0](https://api.judge0.com/)
     * [Virtual Judge](https://vjudge.net/)
     * [Sphere Online Judge](http://www.spoj.com/)
 
