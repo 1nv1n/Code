@@ -17,6 +17,7 @@ Write an efficient method that takes stockPrices and returns the best profit I c
  - No "shorting"—you need to buy before you can sell. Also, you can't buy and sell in the same time step—at least 1 minute has to pass.
  - What if the price stays the same?
  - What if the price goes down all day?
+ - This can also be found on [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/).
 
 ### Example
 

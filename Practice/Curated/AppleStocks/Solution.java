@@ -1,22 +1,32 @@
 /**
- * Class that contains the logic & implementation for the provided problem's solution.
+ * Solution Implementor.
  */
 class CodeGoesHere {
-
   /**
-   * Get the maximum profit from the provided stock prices
-   * stockPrices - int array
+   * Get the maximum profit from the provided stock prices.
+   * @param stockPrices - int array
    */
   public static int getMaxProfit(int[] stockPrices) {
-    int minPrice = stockPrices[0];
+    // Assume a low minimum
+    int minPrice = -1;
+
+    // Assume the maximum starting profit to be 0.
     int maxProfit = 0;
 
+    // Base case, return on invalid input
+    if(stockPrices == null || stockPrices.length <= 0) {
+      return maxProfit;
+    }
+
+    // Set the minimum price to be the first day's stock price.
+    minPrice = stockPrices[0];
+
+    // Look at every available stock price
     for (int currentPrice : stockPrices) {
         // Ensure minPrice is the lowest price we've seen so far
         minPrice = Math.min(minPrice, currentPrice);
 
-        // See what our profit would be if we:
-        //  bought at the min price and sold at the current price
+        // See what our profit would be if we bought at the min price and sold at the current price
         int potentialProfit = currentPrice - minPrice;
 
         // Update maxProfit if we can do better
@@ -28,21 +38,17 @@ class CodeGoesHere {
 }
 
 /**
- * This is the driver of the solution.
- * This class is not expected to hold any logic,
- *  but rather to call into the method(s) from {@link CodeGoesHere} to perform the expected actions.
+ * Driver.
  */
 public class Solution {
   /**
-   * The entry point to executing the solution.
+   * Entry point.
    * @param args {@link String} argument array from the standard input.
    */
   public static void main(String[] args) {
-    // Create a new instance of the class that implements the logic.
     CodeGoesHere cGH = new CodeGoesHere();
-      int[] stockPrices = new int[] {10, 7, 5, 8, 11, 9};
+    int[] stockPrices = new int[] {10, 7, 5, 8, 11, 9};
 
-    // Print the expected output to the standard output.
     System.out.println(cGH.getMaxProfit(stockPrices));
   }
 }
