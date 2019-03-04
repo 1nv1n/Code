@@ -45,7 +45,7 @@ class ListNode {
 /**
  * Contains the logic that solves the provided problem.
  */
-class Solution {
+class CodeGoesHere {
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     ListNode result = null;
     ListNode tempNode = null;
@@ -102,6 +102,14 @@ class Solution {
       }
     }
 
+    // Make sure to grab any left over carries.
+    if(carry > 0) {
+      while(tempNode.next != null) {
+        tempNode = tempNode.next;
+      }
+      tempNode.next = new ListNode(carry);
+    }
+
     return result;
   }
 }
@@ -109,31 +117,33 @@ class Solution {
 /**
  * Driver class for the problem's solution (JDK8+).
  */
-public class MainClass {
+public class Solution {
   private static String currTimeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 
   public static void main(String[] args) {
     System.out.println(currTimeStamp);
 
-    Solution sol = new Solution();
+    CodeGoesHere cGH = new CodeGoesHere();
     ListNode res = null;
 
-    ListNode l1 = new ListNode(2);
-    l1.next = new ListNode(4);
-    l1.next.next = new ListNode(3);
+    ListNode l1 = new ListNode(5);
+    //l1.next = new ListNode(4);
+    //l1.next.next = new ListNode(3);
 
     ListNode l2 = new ListNode(5);
-    l2.next = new ListNode(6);
-    l2.next.next = new ListNode(4);
+    //l2.next = new ListNode(6);
+    //l2.next.next = new ListNode(4);
 
     // Extra test
-    // l2.next.next.next = new ListNode(9);
+    //l2.next.next.next = new ListNode(9);
 
-    res = sol.addTwoNumbers(l1, l2);
+    res = cGH.addTwoNumbers(l1, l2);
 
     // Uncomment to print the inputs & the outpu
     // l1.printLinkedList();
     // l2.printLinkedList();
+
+    // Print result
     res.printLinkedList();
   }
 }
