@@ -10,4 +10,5 @@ Description, explanation & solutions to [LeetCode](https://leetcode.com/) proble
 | 258 | [Add Digits](AddDigits) | [Java](AddDigits/Solution.java) | Easy | Math |
 | 394 | [Decode String](DecodeString) | [Java](DecodeString/Solution.java) | Medium | |
 | 478 | [Generate Random Point In A Circle](GenerateRandomPointInACircle) | [Java](GenerateRandomPointInACircle/Solution.java) | Medium | Array, Math |
+| 695 | [Max Area of Island](MaxAreaOfIsland) | [Java](MaxAreaOfIsland/Solution.java) | Medium | 2DArray, DFS |
 | 896 | [Monotonic Array](MonotonicArray) | [Java](MonotonicArray/Solution.java) | Easy | Array |
