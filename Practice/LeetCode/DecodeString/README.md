@@ -25,6 +25,12 @@ Time Complexity: `O(n)` where `n` is the total number of characters in the final
 
 Space Complexity: `O(n)` where `n` is the total number of characters in the final output/decoded string.
 
+Stats:
+
+Runtime: 2 ms, faster than 83.85% of Java online submissions for Decode String.
+
+Memory Usage: 36.8 MB, less than 62.69% of Java online submissions for Decode String.
+
 ## Solution
 
  - [Java](Solution.java)
